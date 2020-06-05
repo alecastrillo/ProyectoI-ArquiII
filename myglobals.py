@@ -1,0 +1,21 @@
+import logging
+
+
+CPI_CALC = 1
+CPI_READ = 1
+CPI_WRITE = 1
+CPI_L1 = 0 #4
+CPI_L2 = 0 #10
+CPI_MEMORY = 0#200
+
+
+CALC_INSTRUCTIONS_PROBABILITY = .4
+READ_INSTRUCTIONS_PROBABILITY = .3
+WRITE_INSTRUCTIONS_PROBABILITY = .3
+MAIN_MEMORY_SIZE = 16
+
+
+CLOCK = True
+CYCLE = 0
+FREQUENCY = 1
+LOGFILE = logging.basicConfig(filename="logfile.log", level=logging.INFO)
